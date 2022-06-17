@@ -9,17 +9,6 @@ import Navigator from './Navigator';
 import Content from './Content';
 import Header from './Header';
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}.
-    </Typography>
-  );
-}
 
 let theme = createTheme({
   palette: {
@@ -201,7 +190,6 @@ export default function Paperbase() {
             <Content />
           </Box>
           <Box component="footer" sx={{ p: 2, bgcolor: '#eaeff1' }}>
-            <Copyright />
           </Box>
         </Box>
       </Box>

@@ -15,8 +15,12 @@
     "@mui/material": "^5.8.4",
     "@mui/styled-engine-sc": "^5.8.0",
     "@mui/system": "^5.8.4",
+    "@mui/x-data-grid": "^5.12.2",
+    "@mui/x-data-grid-generator": "^5.12.2",
+    "chart.js": "^3.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-google-charts": "^4.0.0",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
